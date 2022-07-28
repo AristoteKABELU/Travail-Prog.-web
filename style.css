@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #302e2e;
+}
+
+
+/*-----------HEARDER-------------*/
+
+header{
+    padding: 100px;
+}
+.nom_etudiant{
+    position: absolute;
+    right:0px ;
+    top: 10px;
+    text-align: center;
+    width: 450px;
+    background-color:#c3c3c3;
+}
+/*-----------NAV BAR-------------*/
+header nav{
+    text-align: center;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    width: auto;
+}
+
+nav a:hover{
+    color: #006699;
+    border-bottom: #006699 solid 2px;
+    transition: 0.5s;
+}
+/*-----------SECTION-------------*/
+section{
+    padding: 200px;
+}
+/*-----------FOOTER--------------*/
+footer{
+    padding: 30px;
+    background-color: #c3c3c3;
+}
+
+.contactez-moi{
+    text-align: center;
+}
+.contactez-moi h3{
+    padding: 10px;
+}
