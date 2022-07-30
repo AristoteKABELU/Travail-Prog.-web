@@ -4,15 +4,29 @@
 }
 
 body{
+    max-width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #302e2e;
+    border: #c3c3c3 solid 1px;
 }
 
 
 /*-----------HEARDER-------------*/
 
 header{
-    padding: 100px;
+    padding: 15px;
+    gap: 2px;
+    border:#c3c3c3 solid 1px;
 }
+
+.img_header{
+    display: flex;
+    justify-content: space-between;
+    border: #006699 solid 1px;
+}
+
+
 .nom_etudiant{
     position: absolute;
     right:0px ;
@@ -21,10 +35,40 @@ header{
     width: 450px;
     background-color:#c3c3c3;
 }
-/*-----------NAV BAR-------------*/
+
+.logo{
+    padding: 5px;
+    width: 250px;
+    height: 70px;
+}
+
+.logo:hover{
+    background-color: #006699;
+    transition: 2s;
+}
+
+    
+.ma_photo:hover{
+    width: 150px;
+    height: 150px;
+    transform: scale(1.25);
+    transition: .7s;
+}
+
 header nav{
     text-align: center;
 }
+.ma_photo{
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 5px black);
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/*-----------NAV BAR-------------*/
+
 nav a{
     font-size: 20px;
     color: white;
@@ -37,15 +81,57 @@ nav a{
 nav a:hover{
     color: #006699;
     border-bottom: #006699 solid 2px;
-    transition: 0.5s;
+    transition: 800ms;
 }
+
 /*-----------SECTION-------------*/
 section{
-    padding: 200px;
+    overflow:hidden ;
+    padding: 20px 0px;
+    padding-bottom: 100px;
 }
+
+section p{
+    padding: 20px;
+    color: aliceblue;
+}
+
+section h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #006699;
+}
+
+.parcour_scolaire{
+    border: #c3c3c3 solid 1px;
+}
+
+.parcours{
+    display: flex;
+    justify-content: center;
+}
+.parcour{
+    margin: 10px 10px 10px 70px;
+    padding: 5px;
+    text-align: center;
+    width: 500px;
+}
+.parcour li{
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.parcours h2{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 /*-----------FOOTER--------------*/
 footer{
-    padding: 30px;
+    padding: 10px;
     background-color: #c3c3c3;
 }
 
@@ -55,3 +141,11 @@ footer{
 .contactez-moi h3{
     padding: 10px;
 }
+footer a{
+    font-size: 60px;
+    color:black;
+}
+footer a:hover{
+    color: #006699;
+}
+
