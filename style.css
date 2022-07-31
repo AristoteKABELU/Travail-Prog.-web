@@ -4,12 +4,14 @@
 }
 
 body{
-    max-width: 1112px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #302e2e;
 }
 
+.mon_site{
+    background-color: #302e2e;
+}
 
 /*-----------HEARDER-------------*/
 
@@ -123,7 +125,6 @@ section h1{
     padding: 10px;
     margin-bottom: 10px;
 }
-
 
 .competences{
     text-align: center;
